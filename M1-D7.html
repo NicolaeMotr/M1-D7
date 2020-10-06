@@ -1,0 +1,219 @@
+<html>
+
+    <head>
+        <title>Online Shop</title>
+        <style type="text/css">
+            h1 {
+                color: blue;
+                background-color: coral;
+                text-align: center
+            }
+
+            body {
+                background-color: bisque;
+            }
+
+            footer {
+                background-color: coral;
+                text-align: center
+            }
+            .pippo:hover{
+                color:red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 id='demo'>Hi-Tech Things</h1>
+        <p>
+            <table style="width:100%">
+                <tr>
+                    <th><a
+                            href="https://www.amazon.it/dp/B071JF9MG1/ref=s9_acsd_ri_bw_c2_x_2_i?pf_rd_m=A2VX19DFO3KCLO&pf_rd_s=merchandised-search-7&pf_rd_r=ATK486NSKX940WTF07TH&pf_rd_t=101&pf_rd_p=e5f29021-8832-4d00-9d0f-58a143ecfbcb&pf_rd_i=14606289031">LCD
+                            Pannel</a></th>
+                    <th><a
+                            href="https://www.amazon.it/dp/B07DPHG521/ref=s9_acsd_ri_bw_c2_x_5_i?pf_rd_m=A2VX19DFO3KCLO&pf_rd_s=merchandised-search-7&pf_rd_r=ATK486NSKX940WTF07TH&pf_rd_t=101&pf_rd_p=e5f29021-8832-4d00-9d0f-58a143ecfbcb&pf_rd_i=14606289031">
+                            Smart Home Hub</a></th>
+                    <th><a
+                            href="https://www.amazon.it/MERGE-Cube-EU-Hologram-Compatibile/dp/B07GK1T9VP/ref=lp_14606289031_1_3?s=boost&srs=14606289031&ie=UTF8&qid=1601902813&sr=1-3">MERGE
+                            Cube</a></th>
+                    <th><a
+                            href="https://www.amazon.it/Ledger-Nano-Portafoglio-Hardware-Criptovaluta/dp/B07FY5R77T/ref=lp_14606289031_1_2?s=boost&srs=14606289031&ie=UTF8&qid=1601903096&sr=1-2">Ledger</a>
+                    </th>
+                    <th><a
+                            href="https://www.amazon.it/Mixcder-E7-attiva-Bluetooth-cuscinetti-auricolari/dp/B077TRXYCN/ref=lp_14606289031_1_18?s=boost&srs=14606289031&ie=UTF8&qid=1601902813&sr=1-18">Mixcder
+                            HeadSet</a></th>
+                </tr>
+                <tr>
+                <tr>
+                    <th><img src="https://www.amazon.it/dp/B071JF9MG1/ref=s9_acsd_ri_bw_c2_x_2_i?pf_rd_m=A2VX19DFO3KCLO&pf_rd_s=merchandised-search-7&pf_rd_r=ATK486NSKX940WTF07TH&pf_rd_t=101&pf_rd_p=e5f29021-8832-4d00-9d0f-58a143ecfbcb&pf_rd_i=14606289031"
+                            alt="Lcd Pannel"></th>
+                    <th><img src="https://www.amazon.it/dp/B07DPHG521/ref=s9_acsd_ri_bw_c2_x_5_i?pf_rd_m=A2VX19DFO3KCLO&pf_rd_s=merchandised-search-7&pf_rd_r=ATK486NSKX940WTF07TH&pf_rd_t=101&pf_rd_p=e5f29021-8832-4d00-9d0f-58a143ecfbcb&pf_rd_i=14606289031"
+                            alt="Smart Home Hub"></th>
+                    <th><img src="https://www.amazon.it/MERGE-Cube-EU-Hologram-Compatibile/dp/B07GK1T9VP/ref=lp_14606289031_1_3?s=boost&srs=14606289031&ie=UTF8&qid=1601902813&sr=1-3"
+                            alt="Merge Cube"></th>
+                    <th><img src="https://www.amazon.it/Ledger-Nano-Portafoglio-Hardware-Criptovaluta/dp/B07FY5R77T/ref=lp_14606289031_1_2?s=boost&srs=14606289031&ie=UTF8&qid=1601903096&sr=1-2"
+                            alt="Ledger Nano"></th>
+                    <th><img src="https://www.amazon.it/Mixcder-E7-attiva-Bluetooth-cuscinetti-auricolari/dp/B077TRXYCN/ref=lp_14606289031_1_18?s=boost&srs=14606289031&ie=UTF8&qid=1601902813&sr=1-18"
+                            alt="Headset"></th>
+                </tr>
+                <tr>
+                <tr>
+                    <th>Tavoletta LCD da Scrittura 8,5 Pollici Colorato Scheda Doodle Blocco da Disegno elettronico per
+                        Bambini
+                    </th>
+                    <th> Broadlink Smart Home Hub, RM Mini3 Telecomando universale WiFi intelligente</th>
+                    <th>Cubo di Realtà Aumentata STEM Toy</th>
+                    <th>Portafoglio Hardware per Criptovaluta</th>
+                    <th>Cuffie Noise Cancelling, Cuffie Bluetooth 5.0</th>
+                </tr>
+                <tr>
+                <tr>
+                <tr>
+                    <th>12,50 €</th>
+                    <th>23,99 €</th>
+                    <th>29,99 €</th>
+                    <th>59,00 €</th>
+                    <th>49,99 €</th>
+                </tr>
+
+            </table>
+        </p>
+
+
+        <div id="googleMap" style="width:100%;height:450px;"></div>
+
+        <script>
+            function myMap() {
+                var mapProp = {
+                    center: new google.maps.LatLng(45.442366, 11.926173),
+                    zoom: 5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBF7_OMj2QihbpbrVOj9sOdC05FFQpEBpE&callback=myMap"></script>
+
+        <div>
+            <label>Mesage</label>
+            <textarea name="Scrivi qui il tuo messaggio"></textarea>
+        </div>
+
+        <footer>
+            <p>
+                <Address>Via G. Rigotti, 23A, 35010 Cadoneghe PD</Address>
+            </p>
+            <p>Hi-Tech Things</p>
+        </footer>
+
+
+        <div>
+            <label>Mesage</label>
+            <textarea name="Scrivi qui il tuo messaggio"></textarea>
+        </div>
+        <script>
+            /*EXERCISE 1
+        Create a new welcome alert message when the page successfully loads
+        */
+            window.onload = function () {
+                alert('hello strivers');
+            };
+
+            /* EXERCISE 2
+            Write a function to change the Title of the page in something else (execute the function in browser console)
+            */
+            const changeTitle = function (newTitle) {
+                document.title = newTitle
+            };
+            changeTitle('New Tech')
+
+            /* EXERCISE 3a
+            Write a function to add a class to the page's h1 title in "red-color" (execute the function when title is
+            hovered by mouse).
+            */
+
+            document.getElementById("demo").addEventListener("mouseover", mouseOver);
+            document.getElementById("demo").addEventListener("mouseout", mouseOut);
+
+            function mouseOver() {
+                document.getElementById("demo").style.color = "red";
+            }
+
+            function mouseOut() {
+                document.getElementById("demo").style.color = "black";
+            }
+
+            /* EXERCISE 3b
+            Write a function to remove "red-color" class from previous h1 (execute the function when the mouse leaves the
+            title).
+            */
+
+            
+            const removeClassFromTitle = function () {};
+            /* EXERCISE 4
+            Add the following html snippet to your page:
+            <h2 id="listTitle">Todo List</h2>
+            <ul id="firstList">
+                <li>
+                    <p>1st</p>
+                </li>
+                <li>2nd</li>
+                <li>3rd</li>
+            </ul>
+            <ul id="secondList">
+                <li>1st</li>
+                <li>2nd</li>
+                <li>3rd</li>
+            </ul>
+            <div>
+                <p>This text is just for the exercise</p>
+            </div>
+            Write a function to change the text of only the p which are child of a div (execute the function by assigning it
+            to a button's click event)
+            */
+            const changePContent = function () {
+                let paragraph = document.querySelectorAll('div');
+                for (let i = 0; i < paragraph.length; i++) {
+                    paragraph[i].innerText = "Hi I'm changing on click"
+                }
+            };
+            /* EXERCISE
+                       5 Write a function to change the list title (you can use previous day's textarea as input or create a new
+                       text input field to grab the content) */
+            const changeListTitle = function (content) {};
+            let
+                content = document.querySelector('#newTitle');
+            /* EXERCISE 6 Write a function to add a new item ONLY to the
+                       second list (create an input field + add button) */
+            const addToTheSecond = function (content) {};
+            /* EXERCISE
+                       7 Write a function to make the first UL disappear (button) */
+            const firstUlDisappear = function () {};
+            /*
+                       EXERCISE 8 Write a function to make the background of every UL green (button) */
+            const paintItGreen = function () {};
+            /* EXERCISE 9 Add a "magnifier function" to the table. When the user mouse goes on a table cell (not
+                       the image one) the font size must increase. HINT use mouseenter / mouseleave events */
+            const
+                makeThemMagnifiable = function () {};
+            /* EXERCISE 10 Add a button to toggle all the product images (toggle=>
+                       if visible, hide, if not visible, show)
+                       */
+            const toggleShowImages = function () {};
+
+            //##### EXTRA
+
+            /* EXERCISE 11
+            Make the heading of the page change color radomly every time the user clicks on it
+            */
+            const makeItClickable = function () {};
+
+            /*EXERCISE 12
+            Refactor your HTML code with HTML5 semantic tags such as header, section, footer, etc
+            */
+        </script>
+
+    </body>
+
+</html>
